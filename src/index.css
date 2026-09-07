@@ -559,7 +559,7 @@ a {
 
 /* CTA */
 .cta {
-    background: linear-gradient(rgba(249, 246, 240, 0.9), rgba(249, 246, 240, 0.9)), url('/hero-image.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(249, 246, 240, 0.9), rgba(249, 246, 240, 0.9)), url('./assets/hero-image.jpg') center/cover no-repeat;
     background-attachment: fixed;
 }
 

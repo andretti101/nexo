@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import logo from '../assets/logo.png';
 
 function Navbar({ onOpenQuote }) {
   const [scrolled, setScrolled] = useState(false);
@@ -41,7 +42,7 @@ function Navbar({ onOpenQuote }) {
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="logo">
             <a href="#home" className="logo-link" onClick={(e) => handleLinkClick(e, '#home')}>
-                <img src="/2.png" alt="NEXO Tradução Empresarial" className="logo-img" />
+                <img src={logo} alt="NEXO Tradução Empresarial" className="logo-img" />
             </a>
         </div>
         <nav className={`nav-links ${menuActive ? 'active' : ''}`}>

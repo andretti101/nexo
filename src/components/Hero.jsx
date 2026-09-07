@@ -1,4 +1,5 @@
 import React from 'react';
+import heroImg from '../assets/hero-image.jpg';
 
 function Hero({ onOpenQuote }) {
   return (
@@ -10,7 +11,7 @@ function Hero({ onOpenQuote }) {
             <a href="#" className="btn btn-gold" onClick={(e) => { e.preventDefault(); onOpenQuote(); }}>SOLICITE UM ORÇAMENTO</a>
         </div>
         <div className="hero-image">
-            <img src="/hero-image.jpg" alt="Tradução Empresarial Manuais" />
+            <img src={heroImg} alt="Tradução Empresarial Manuais" />
         </div>
     </section>
   );

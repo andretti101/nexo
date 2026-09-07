@@ -1,4 +1,5 @@
 import React from 'react';
+import marianelaImg from '../assets/marianela.jpg';
 
 function About() {
   return (
@@ -22,7 +23,7 @@ function About() {
                 <p className="highlight-text gold-text"><strong>Precisão, experiência e cuidado em cada projeto.</strong></p>
             </div>
             <div className="about-image">
-                <img src="/marianela.jpg" alt="Marianela Marana Vieyto" className="about-photo" />
+                <img src={marianelaImg} alt="Marianela Marana Vieyto" className="about-photo" />
             </div>
         </div>
     </section>
