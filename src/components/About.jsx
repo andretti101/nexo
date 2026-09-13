@@ -4,10 +4,10 @@ import marianelaImg from '../assets/marianela.jpg';
 function About() {
   return (
     <section id="sobre" className="about section reveal">
-        <div className="container about-grid">
-            <div className="about-text">
+        <div className="container">
+            <div className="about-text" style={{ textAlign: 'center', fontSize: '1.2rem', maxWidth: '900px', margin: '0 auto' }}>
                 <h2 className="section-title">Experiência que faz diferença</h2>
-                <div className="stats">
+                <div className="stats" style={{ justifyContent: 'center' }}>
                     <div className="stat">
                         <span className="number">30+</span>
                         <span className="label">Anos na área de Letras</span>
@@ -22,9 +22,11 @@ function About() {
                 <p>Minha experiência une conhecimento linguístico, domínio dos dois idiomas e compreensão das necessidades da comunicação empresarial.</p>
                 <p className="highlight-text gold-text"><strong>Precisão, experiência e cuidado em cada projeto.</strong></p>
             </div>
+            {/* Foto removida temporariamente a pedido da cliente
             <div className="about-image">
                 <img src={marianelaImg} alt="Marianela Marana Vieyto" className="about-photo" />
             </div>
+            */}
         </div>
     </section>
   );
